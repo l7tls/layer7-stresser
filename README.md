@@ -1,49 +1,17 @@
-🔥 Layer7 Stresser Nedir? (2025 Güncel Açıklama)
-Layer7 Stresser, web sitelerinin uygulama katmanına (L7) yönelik stres testi yapmak için kullanılan özel bir trafik simülasyon aracıdır. Özellikle HTTP GET/POST istekleri göndererek sitenin sunucu kaynaklarını zorlamayı hedefler. Bu tarz testler, normal ziyaretçi gibi davranan ama yoğun şekilde gelen trafikle yapılan testlerdir.
+🔥 What is Layer7 Stresser? (2025 Current Description) Layer7 Stresser is a specialized traffic simulation tool used to stress test the application layer (L7) of websites. In particular, it aims to stress the server resources of the site by sending HTTP GET/POST requests. This type of tests are tests that act like normal visitors but with heavy traffic.
 
-🧠 Layer7 Saldırıları Nasıl Çalışır?
-Layer7 stres testleri şunları kullanır:
+🛡️ What is Cloudflare CAPTCHA & UAM Bypass? Advanced L7 stresser systems have features that can bypass protection systems like Cloudflare. For example:
 
-Gerçek tarayıcı gibi davranan botlar
+Cloudflare CAPTCHA bypass: Real browser behavior is emulated.
 
-HTTP flood (binlerce sahte istek)
+UAM (Under Attack Mode) bypass: Page load, cookie retrieval, browser control is automated.
 
-TLS el sıkışma (TLS flood)
+JavaScript solvers: Browser-specific challenges can be bypassed.
 
-Cookie / oturum çakıştırma
+IP rotation and proxy usage: Provides the appearance of a real user.
 
-Bozuk ya da sahte header'larla yapılan testler
+📌 Most Frequently Used Layer7 Methods in 2025 Method Description HTTP Flood Continuous GET/POST requests TLS Flood Locks CPU by opening hundreds of connections Null Header Confuses server by sending empty header Browser Emulation Real browser emulation Cookie Flood Request with valid session cookies
 
-🛡️ Cloudflare CAPTCHA & UAM Bypass Nedir?
-Gelişmiş L7 stresser sistemleri, Cloudflare gibi koruma sistemlerini aşabilecek özellikler barındırır. Örneğin:
+⚠️ Warning This information is for training and test environments only. Unannounced stress tests are a crime. You should only use these tools on your own site or on systems you are authorized to use.
 
-Cloudflare CAPTCHA geçme: Gerçek tarayıcı davranışı emüle edilir.
-
-UAM (Under Attack Mode) bypass: Sayfa yüklemesi, cookie alma, tarayıcı kontrolü otomatik yapılır.
-
-JavaScript çözücüler: Tarayıcıya özel zorluklar geçilebilir.
-
-IP rotasyonu ve proxy kullanımı: Gerçek kullanıcı gibi görünme sağlar.
-
-📌 2025’te En Sık Kullanılan Layer7 Metodları
-Yöntem	Açıklama
-HTTP Flood	Sürekli GET/POST istekleri
-TLS Flood	Yüzlerce bağlantı açarak CPU’yu kilitler
-Null Header	Boş header göndererek sunucuyu şaşırtır
-Browser Emulation	Gerçek browser taklidi
-Cookie Flood	Geçerli oturum cookie'leri ile istek yapılır
-
-🛠️ Açık Kaynak L7 Stresser Araçları
-GitHub’da bulunan bazı eğitim amaçlı araçlar:
-
-MHDDoS – Python ile yazılmış, çok güçlü bir stres aracı
-
-NoStress – TLS flood destekli
-
-MatrixTM DDoS – CAPTCHA ve UAM için bypass fonksiyonları içerir
-
-⚠️ Uyarı
-Bu bilgiler sadece eğitim ve test ortamları içindir. Habersiz yapılan stres testleri suçtur. Bu araçları sadece kendi sitenizde ya da yetki aldığınız sistemlerde kullanmalısınız.
-
-🌐 Detaylı Bilgi & Test Sitesi:
-➡️ https://l7stresse.com/ adresinden daha fazla bilgi ve demo test ortamlarına erişebilirsiniz.
+🌐 Detailed Information & Test Site: ➡️ You can access more information and demo test environments at https://l7stresse.com/.
